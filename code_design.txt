@@ -1,0 +1,7 @@
+import sys
+
+sys.stdout = open('returned_txt.txt', 'w')
+
+{}
+
+sys.stdout.close()
